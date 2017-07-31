@@ -155,7 +155,7 @@ class Main:
 				self.__game_result.append(winner_count);
 				self.__init_game();
 				self.__game_reset = False;
-				print("winner_count = %s" % winner_count);
+				print("pass = %s, winner_count = %s, episode = %s" % (self.__cur_game_count, winner_count, self.__episode));
 				self.__episode = 0;
 				self.__cur_game_count += 1;
 		
